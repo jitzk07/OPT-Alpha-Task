@@ -1,0 +1,72 @@
+/* Reset some default browser styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 1200px;
+}
+
+h1, h2, p {
+  color: #333;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  width: calc(100% - 20px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+li {
+  padding: 10px;
+  margin: 10px;
+  background: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-size: 1em;
+  color: #555;
+  flex: 1 0 30%;
+  max-width: 30%;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #444;
+}
+
+p {
+  font-size: 1.2em;
+  color: #666;
+  margin-top: 10px;
+}
